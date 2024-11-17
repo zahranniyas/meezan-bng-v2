@@ -1,4 +1,12 @@
-const BungalowItem = ({ name, desc, img, link, addCSS }) => {
+interface Props {
+  name: string;
+  desc: string;
+  img: string;
+  link: string;
+  addCSS?: string;
+}
+
+const BungalowItem = ({ name, desc, img, link, addCSS }: Props) => {
   return (
     <div className={`relative ${addCSS}`}>
       <img
@@ -14,9 +22,12 @@ const BungalowItem = ({ name, desc, img, link, addCSS }) => {
           <h2 className="text-xl font-medium">{name}</h2>
           <p className="text-[12px] font-quicksand font-thin">{desc}</p>
         </div>
-        <button className="bg-[#373225] text-white px-2 pb-[4px] pt-[6px]  text-xs rounded-md hover:bg-[#59513c] transition-all">
+        <a
+          href={link}
+          className="bg-[#373225] text-white px-2 pb-[4px] pt-[6px]  text-xs rounded-md hover:bg-[#59513c] transition-all"
+        >
           Visit Page
-        </button>
+        </a>
       </div>
     </div>
   );
