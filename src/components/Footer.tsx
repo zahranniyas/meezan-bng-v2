@@ -3,23 +3,23 @@ import { logoWhite } from "../assets";
 
 const Footer = () => {
   return (
-    <div className="mt-[300px] bg-[#373225] flex justify-between text-white font-quicksand font-thin px-[200px] py-10">
+    <div className="mt-[100px] lg:mt-[300px] bg-[#373225] flex max-sm:flex-col max-sm:items-center max-sm:gap-5 justify-between text-white font-quicksand font-thin px-[20px] lg:px-[200px] py-10">
       <img src={logoWhite} alt="logo" className="w-[150px] object-contain" />
-      <div className="flex flex-col gap-3">
+      <div className="flex max-sm:flex-row max-sm:text-xs flex-col gap-3">
         <a href="">About</a>
         <a href="">Bungalows</a>
         <a href="">Services</a>
         <a href="">Booking</a>
         <a href="">Contact</a>
       </div>
-      <div className="flex flex-col gap-3">
+      <div className="flex max-sm:flex-row max-sm:text-xs flex-col gap-3">
         <a href="">Events</a>
         <a href="">FAQ</a>
         <a href="">Media</a>
         <a href="">Terms & Conditions</a>
         <a href="">Privacy Policy</a>
       </div>
-      <div className="flex flex-col gap-3">
+      <div className="flex max-sm:flex-row max-sm:text-xs flex-col gap-3">
         <p>+94 777 111 222</p>
         <p>info@meezan.com</p>
         <p>

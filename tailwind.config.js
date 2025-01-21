@@ -7,6 +7,10 @@ export default {
         "el-messiri": ["El Messiri", "sans-serif"],
         quicksand: ["Quicksand", "serif"],
       },
+      colors: {
+        primary: "#373225",
+        secondary: "#e6d199",
+      },
     },
   },
   plugins: [],

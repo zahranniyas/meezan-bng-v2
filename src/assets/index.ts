@@ -9,6 +9,7 @@ import bungFour from "./images/bung-04.jpg";
 import servOne from "./images/services-01.jpg";
 import servTwo from "./images/services-02.jpg";
 import servThree from "./images/services-03.jpg";
+import comingsoonVid from "./videos/coming-soon-vid.mp4";
 
 export {
   aboutImg01,
@@ -22,4 +23,5 @@ export {
   servOne,
   servTwo,
   servThree,
+  comingsoonVid,
 };

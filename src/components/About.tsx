@@ -156,17 +156,20 @@ const About = () => {
   }, []);
 
   return (
-    <div id="aboutMain" className=" flex h-[900px]">
-      <div className="w-[40%] flex flex-col justify-center ml-10">
-        <h1 className="font-quicksand about-text">About Us</h1>
+    <div
+      id="aboutMain"
+      className=" flex mt-[150px] flex-col lg:flex-row items-center"
+    >
+      <div className="w-[100%] lg:w-[40%] flex flex-col justify-center pl-10 max-sm:pr-10">
+        <h1 className="font-quicksand font-thin about-text">About Us</h1>
         <div className="border-[1px] border-b-orange-400 w-[100px] about-text"></div>
-        <div className="text-[100px] leading-[100px] mt-5">
+        <div className="text-[100px] max-sm:text-[60px] max-sm:leading-[65px] leading-[100px] mt-5">
           <h2 id="aboutHead" className="about-text">
             Impeccably <br />
             Elegant
           </h2>
         </div>
-        <p className="w-full mt-5 font-quicksand about-text">
+        <p className="w-full mt-5 font-quicksand about-text max-sm:text-sm">
           Four luxury estate bungalows in four exotic locations for you to
           choose from. Hatale Bungalow which was initially a plantation bungalow
           on the Hatale Tea Estate was transformed by the Management into a
@@ -176,17 +179,17 @@ const About = () => {
           luxury villa.
         </p>
       </div>
-      <div className="flex justify-end items-center w-[60%]">
-        <div className="relative w-[579px] h-[612px] flex overflow-clip border-[1px] about-img">
+      <div className="flex justify-end items-center w-[100%] lg:w-[60%] mt-20 lg:mt-0">
+        <div className="relative w-[579px] h-[612px] max-sm:w-[289.5px] max-sm:h-[306px] flex overflow-clip border-[1px] about-img">
           <img
             id="imgOne"
             src={aboutImg02}
             alt="about01"
-            className="absolute w-[579px] h-[612px] object-cover"
+            className="absolute w-[579px] h-[612px] max-sm:w-[289.5px] max-sm:h-[306px] object-cover"
           />
           <p
             id="textOne"
-            className="text-white absolute bottom-10 left-10 text-6xl opacity-70"
+            className="text-white absolute bottom-10 left-10 text-6xl opacity-70 max-sm:text-3xl"
           >
             Luxurious <br /> Comfort
           </p>
@@ -194,32 +197,32 @@ const About = () => {
             id="imgTwo"
             src={aboutImg01}
             alt="about02"
-            className="left-[150%] scale-150 absolute w-[579px] h-[612px] object-cover"
+            className="left-[150%] scale-150 absolute w-[579px] h-[612px] max-sm:w-[289.5px] max-sm:h-[306px] max-sm:left-[301.5%] object-cover"
           />
           <p
             id="textTwo"
-            className="text-white absolute bottom-10 left-10 text-6xl opacity-70"
+            className="text-white absolute bottom-10 left-10 text-6xl opacity-70 max-sm:text-3xl"
           >
             Exquisite <br /> Furnishing
           </p>
         </div>
-        <div className="ml-10 w-[231px] h-[408px] about-img flex overflow-clip">
+        <div className="ml-2 w-[231px] h-[408px] max-sm:w-[115.5px] max-sm:h-[204px] about-img flex overflow-clip">
           <img
             id="smallImg01"
             src={aboutImg01}
             alt="about01"
-            className="w-[231px] h-[408px] object-cover"
+            className="w-[231px] h-[408px] max-sm:w-[115.5px] max-sm:h-[204px] object-cover  "
           />
           <img
             id="smallImg02"
             src={aboutImg02}
             alt="about01"
-            className="w-[231px] h-[408px] object-cover"
+            className="w-[231px] h-[408px] max-sm:w-[115.5px] max-sm:h-[204px] object-cover"
           />
         </div>
         <div
           id="rotateBtn"
-          className="absolute bg-white px-8 py-8 rotate-45 right-[350px] shadow-md opacity-70"
+          className="absolute bg-white px-8 py-8 max-sm:p-4 rotate-45 right-[350px] shadow-md opacity-70 max-sm:right-[200px]"
         >
           <FaChevronRight className="rotate-[-225deg] text-xl" />
         </div>

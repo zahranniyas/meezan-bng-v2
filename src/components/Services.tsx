@@ -31,24 +31,27 @@ const Services = () => {
   }, []);
 
   return (
-    <div id="servMain" className="mt-[100px] w-full px-20 mb-20">
-      <h1 className="w-[130px] text-lg font-quicksand font-thin pb-1 border-b-[1px] border-[#b5953d] serv-text">
+    <div
+      id="servMain"
+      className="mt-[100px] w-full overflow-clip lg:px-20 px-10 mb-20"
+    >
+      <h1 className="w-[130px] font-quicksand font-thin pb-1 border-b-[1px] border-[#b5953d] serv-text">
         Our Services
       </h1>
-      <h2 className="mt-8 text-[100px] leading-[100px] serv-text">
+      <h2 className="lg:mt-8 mt-4 text-[100px] leading-[100px] serv-text max-sm:text-[40px] max-sm:leading-[45px]">
         Relaxation & <br /> Adventure Await
       </h2>
       <p className="font-quicksand serv-text">
         Relish the charm of our spacious rooms and separate houses, blending
-        modern elegance with the <br /> tranquility of the surrounding forest
-        park and natural oasis.
+        modern elegance with the tranquility of the surrounding forest park and
+        natural oasis.
       </p>
-      <div className="flex mt-20 gap-10 w-full justify-center">
+      <div className="flex lg:flex-row flex-col mt-20 gap-10 w-full justify-center items-center">
         <div className="w-[400px] relative h-[590px] serv-img">
           <img
             src={servOne}
             alt=""
-            className="rounded-xl w-[400px] h-[400px] object-cover transition-all duration-300 hover:h-[590px] peer"
+            className="rounded-xl w-[400px] h-[590px] lg:h-[400px] object-cover transition-all duration-300 lg:hover:h-[590px] peer"
           />
           <div className="p-4 absolute w-[400px] bottom-0 peer-hover:text-white transition-colors duration-300">
             <h3 className="text-3xl">Spa & Pool</h3>
@@ -63,7 +66,7 @@ const Services = () => {
           <img
             src={servTwo}
             alt=""
-            className="rounded-xl w-[400px] h-[400px] object-cover transition-all duration-300 hover:h-[590px] peer"
+            className="rounded-xl w-[400px] h-[590px] lg:h-[400px] object-cover transition-all duration-300 lg:hover:h-[590px] peer"
           />
           <div className="p-4 absolute w-[400px] top-0 peer-hover:text-[#b5953d] transition-colors duration-300">
             <h3 className="text-3xl">Hiking & Cycling</h3>
@@ -79,7 +82,7 @@ const Services = () => {
           <img
             src={servThree}
             alt=""
-            className="rounded-xl w-[400px] h-[400px] object-cover transition-all duration-300 hover:h-[590px] peer"
+            className="rounded-xl w-[400px] h-[590px] lg:h-[400px] object-cover transition-all duration-300 lg:hover:h-[590px] peer"
           />
           <div className="p-4 absolute w-[400px] bottom-0 peer-hover:text-white transition-colors duration-300">
             <h3 className="text-3xl">Fine Dining</h3>
