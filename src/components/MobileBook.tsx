@@ -1,9 +1,14 @@
 import { useEffect, useState } from "react";
-import { FaChevronDown, FaCircleMinus, FaCirclePlus } from "react-icons/fa6";
+import { FaCircleMinus, FaCirclePlus } from "react-icons/fa6";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Dropdown from "react-dropdown";
 import "./border-style.css";
+
+interface DropdownOption {
+  value: string;
+  label: string;
+}
 
 const MobileBook = () => {
   const [startDate, setStartDate] = useState(new Date());
@@ -23,7 +28,7 @@ const MobileBook = () => {
 
   const [selectedOption, setSelectedOption] = useState(defaultOption);
 
-  const handleChange = (option) => {
+  const handleChange = (option: DropdownOption) => {
     setSelectedOption(option.value);
     console.log("Selected option:", option.value);
   };
@@ -36,7 +41,7 @@ const MobileBook = () => {
           <DatePicker
             minDate={new Date()}
             selected={startDate}
-            onChange={(date) => setStartDate(date)}
+            onChange={(date: Date | null) => date && setStartDate(date)}
             className="border-b-[1px] mt-2 font-quicksand font-thin focus:outline-none pl-1 text-xl bg-transparent w-[120px]"
             dateFormat={"dd MMM, yyyy"}
           />
@@ -44,9 +49,9 @@ const MobileBook = () => {
         <div className="ml-4 border-opacity-60">
           <p className="text-sm">Check-out</p>
           <DatePicker
-            minDate={new Date()}
-            selected={startDate}
-            onChange={(date) => setStartDate(date)}
+            minDate={startDate}
+            selected={endDate}
+            onChange={(date: Date | null) => date && setStartDate(date)}
             className="border-b-[1px] mt-2 font-quicksand font-thin focus:outline-none pl-1 text-xl bg-transparent w-[120px]"
             dateFormat={"dd MMM, yyyy"}
           />
@@ -96,10 +101,10 @@ const MobileBook = () => {
           </div>
         </div>
       </div>
-      <div className=" py-0 ml-5 flex py-8 items-center gap-4">
+      <div className="lg:pl-5 pl-10 flex py-8 items-center gap-4">
         <Dropdown
           options={options}
-          onChange={handleChange}
+          onChange={() => handleChange}
           value={selectedOption}
           placeholder="Select an option"
         />
