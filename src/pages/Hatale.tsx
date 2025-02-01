@@ -1,5 +1,4 @@
 import MetaData from "../components/MetaData";
-import SubHeader from "../components/SubHeader";
 import AboutHatale from "../hatale/AboutHatale";
 import AttractionsHatale from "../hatale/AttractionsHatale";
 import ContactHatale from "../hatale/ContactHatale";
