@@ -57,11 +57,12 @@ const Bungalows = () => {
         start: "bottom, bottom",
       },
     });
-    gsap.from("#bungItem", {
-      y: -150,
+    gsap.from(".bungItem", {
+      y: -190,
       duration: 2,
-      delay: 1,
+      delay: 0.5,
       ease: "elastic",
+      stagger: 0.2,
       scrollTrigger: {
         trigger: "#bungImg",
         start: "bottom, bottom",
@@ -72,7 +73,7 @@ const Bungalows = () => {
   return (
     <div id="bungHead" className="mt-[100px] lg:h-[600px] h-auto">
       <div className="flex w-full flex-col items-center bg-[#373225] text-white lg:h-[350px] h-auto lg:pb-0 pb-[60px] pt-[30px]">
-        <h1 className="text-lg font-quicksand font-thin pb-1 pr-5 border-b-[1px] border-[#b5953d] bung-text">
+        <h1 className="text-4xl max-sm:text-[30px] font-quicksand font-thin pb-2 px-4 border-b-[1px] border-[#b5953d] bung-text">
           Bungalows
         </h1>
         <div className="text-[50px] leading-[100px] bung-text max-sm:text-[25px] max-sm:leading-[65px]">

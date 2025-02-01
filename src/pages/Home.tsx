@@ -3,7 +3,7 @@ import Booking from "../components/Booking";
 import Bungalows from "../components/Bungalows";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-import Services from "../components/Services";
+import Facilities from "../components/Facilities";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
         <Bungalows />
       </div>
       <div id="services">
-        <Services />
+        <Facilities />
       </div>
       <div id="booking">
         <Booking />

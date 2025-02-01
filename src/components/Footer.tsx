@@ -3,7 +3,7 @@ import { logoWhite } from "../assets";
 
 const Footer = () => {
   return (
-    <div className="mt-[100px] lg:mt-[300px] bg-[#373225] flex max-sm:flex-col max-sm:items-center max-sm:gap-5 justify-between text-white font-quicksand font-thin px-[20px] lg:px-[200px] py-10">
+    <div className=" bg-[#373225] flex max-sm:flex-col max-sm:items-center max-sm:gap-5 justify-between text-white font-quicksand font-thin px-[20px] lg:px-[200px] py-10">
       <img src={logoWhite} alt="logo" className="w-[150px] object-contain" />
       <div className="flex max-sm:flex-row max-sm:text-xs flex-col gap-3">
         <a href="">About</a>
@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="">Booking</a>
         <a href="">Contact</a>
       </div>
-      <div className="flex max-sm:flex-row max-sm:text-xs flex-col gap-3">
+      <div className="flex max-sm:flex-row max-sm:text-[10px] flex-col gap-3">
         <a href="">Events</a>
         <a href="">FAQ</a>
         <a href="">Media</a>

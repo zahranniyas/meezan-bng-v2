@@ -37,10 +37,10 @@ const Booking = () => {
       id="bookMain"
       className="mt-[100px] lg:mt-[200px] flex flex-col items-center mb-[100px]"
     >
-      <h1 className="w-[130px] text-lg font-quicksand font-thin pb-1 border-b-[1px] border-[#b5953d] book-text">
-        Bungalows
+      <h1 className="px-3 text-4xl  max-sm:text-[30px] font-quicksand font-thin pb-1 border-b-[1px] border-[#b5953d] book-text">
+        Booking
       </h1>
-      <h2 className="text-[50px] leading-[100px] book-text max-sm:text-[30px] max-sm:leading-[50px]">
+      <h2 className="text-[50px] leading-[100px] book-text max-sm:text-[20px] max-sm:leading-[50px] hidden lg:flex">
         Plan Your Getaway Today
       </h2>
       {/* Desktop Booking Bar */}
