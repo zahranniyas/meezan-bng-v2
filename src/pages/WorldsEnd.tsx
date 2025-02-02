@@ -1,9 +1,9 @@
-import Footer from "../components/Footer";
 import MetaData from "../components/MetaData";
 import AboutWorld from "../worldsend/AboutWorld";
 import AttractionsWorld from "../worldsend/AttractionsWorld";
 import ContactWorld from "../worldsend/ContactWorld";
 import FacilitiesWorld from "../worldsend/FacilitiesWorld";
+import FooterWorld from "../worldsend/FooterWorld";
 import HeroWorld from "../worldsend/HeroWorld";
 import IndFacilitiesWorld from "../worldsend/IndFacilitiesWorld";
 
@@ -17,7 +17,7 @@ const WorldsEnd = () => {
       <IndFacilitiesWorld />
       <AttractionsWorld />
       <ContactWorld />
-      <Footer />
+      <FooterWorld />
     </div>
   );
 };

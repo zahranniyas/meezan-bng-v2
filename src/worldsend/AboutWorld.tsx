@@ -41,11 +41,11 @@ const AboutWorld = () => {
       id="haAboutMain"
     >
       <div className="basis-[1/2]" id="aboutslider">
-        <ImageSlider gallery={worldAbout} />
+        <ImageSlider gallery={worldAbout} sliderBtnColor="#c3e3fa" />
       </div>
       <div className="lg:basis-[1/2] lg:items-start lg:text-left text-center flex flex-col items-center">
         <h2 className="font-quicksand text-lg about-text">About Us</h2>
-        <div className="border-b-[1px] border-secondary w-[100px] about-text"></div>
+        <div className="border-b-[1px] border-secondaryBlue w-[100px] about-text"></div>
         <p className="mt-5 text-3xl max-sm:text-xl about-text">
           Explore Nature’s Beauty
         </p>
@@ -59,44 +59,44 @@ const AboutWorld = () => {
           away.
         </p>
         <h2 className="mt-5 about-text">Rooms & Amenities</h2>
-        <div className="border-b-[1px] border-secondary w-[150px] mt-[-2px] about-text"></div>
+        <div className="border-b-[1px] border-secondaryBlue w-[150px] mt-[-2px] about-text"></div>
         <div className="mt-2 flex flex-col gap-2 ">
           <div className="flex items-center gap-2 about-text">
-            <div className="bg-primary rounded-full flex justify-center items-center w-7 h-7">
+            <div className="bg-primaryBlue rounded-full flex justify-center items-center w-7 h-7">
               <p className="text-white font-quicksand font-thin">10</p>
             </div>
             <p>x</p>
-            <div className="bg-primary rounded-full flex justify-center items-center w-7 h-7">
+            <div className="bg-primaryBlue rounded-full flex justify-center items-center w-7 h-7">
               <TbBedFilled color="white" />
             </div>
             <p className="font-quicksand text-xs">Single Beds</p>
           </div>
           <div className="flex items-center gap-2 about-text">
-            <div className="bg-primary rounded-full flex justify-center items-center w-7 h-7">
+            <div className="bg-primaryBlue rounded-full flex justify-center items-center w-7 h-7">
               <p className="text-white font-quicksand font-thin">02</p>
             </div>
             <p>x</p>
-            <div className="bg-primary rounded-full flex justify-center items-center w-7 h-7">
+            <div className="bg-primaryBlue rounded-full flex justify-center items-center w-7 h-7">
               <TbBedFlatFilled color="white" />
             </div>
             <p className="font-quicksand text-xs">Folding Beds</p>
           </div>
           <div className="flex items-center gap-2 about-text">
-            <div className="bg-primary rounded-full flex justify-center items-center w-7 h-7">
+            <div className="bg-primaryBlue rounded-full flex justify-center items-center w-7 h-7">
               <p className="text-white font-quicksand font-thin">02</p>
             </div>
             <p>x</p>
-            <div className="bg-primary rounded-full flex justify-center items-center w-7 h-7">
+            <div className="bg-primaryBlue rounded-full flex justify-center items-center w-7 h-7">
               <TbBedFlatFilled color="white" />
             </div>
             <p className="font-quicksand text-xs">Camp Beds</p>
           </div>
           <div className="flex items-center gap-2 about-text">
-            <div className="bg-primary rounded-full flex justify-center items-center w-7 h-7">
+            <div className="bg-primaryBlue rounded-full flex justify-center items-center w-7 h-7">
               <p className="text-white font-quicksand font-thin">20</p>
             </div>
             <p>x</p>
-            <div className="bg-primary rounded-full flex justify-center items-center w-7 h-7">
+            <div className="bg-primaryBlue rounded-full flex justify-center items-center w-7 h-7">
               <IoIosPeople color="white" />
             </div>
             <p className="font-quicksand text-xs">Max Occupants</p>

@@ -6,9 +6,10 @@ import debounce from "lodash.debounce";
 
 interface Props {
   gallery: Array<string>;
+  sliderBtnColor: string;
 }
 
-const ImageSlider = ({ gallery }: Props) => {
+const ImageSlider = ({ gallery, sliderBtnColor }: Props) => {
   const [windowDimensions, setWindowDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -55,7 +56,7 @@ const ImageSlider = ({ gallery }: Props) => {
           backgroundColor: `${
             xValue === -(slideWidth * (hataleAboutMain.length - 1))
               ? "#e5e7eb"
-              : "#e6d199"
+              : sliderBtnColor
           }`,
         }}
       >
@@ -88,7 +89,7 @@ const ImageSlider = ({ gallery }: Props) => {
             : ""
         }`}
         style={{
-          backgroundColor: xValue === 0 ? "#e5e7eb" : "#e6d199",
+          backgroundColor: xValue === 0 ? "#e5e7eb" : sliderBtnColor,
         }}
       >
         <FaChevronRight />

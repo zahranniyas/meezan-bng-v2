@@ -48,7 +48,7 @@ const IndFacilitiesWorld = () => {
       id="indoor"
     >
       <h2 className="font-quicksand text-lg facInd-text">Facilities</h2>
-      <div className="border-b-[1px] border-secondary w-[100px] facInd-text"></div>
+      <div className="border-b-[1px] border-secondaryBlue w-[100px] facInd-text"></div>
       <p className="mt-5 lg:text-5xl text-2xl facInd-text">Indoor Activities</p>
       <div className="grid lg:grid-cols-3 lg:grid-rows-2 md:grid-cols-2 gap-5 mt-10 max-sm:mt-[20px] px-0 h-full w-full lg:text-3xl text-xl">
         {indoorListWorld.map((item, i) => (
@@ -57,7 +57,7 @@ const IndFacilitiesWorld = () => {
             style={{
               backgroundBlendMode: "multiply",
               backgroundImage: `url(${item.img})`,
-              backgroundColor: "#e6d199",
+              backgroundColor: "#c3e3fa",
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}

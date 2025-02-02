@@ -182,7 +182,7 @@ const SubHeader = () => {
   return (
     <section
       id="scrollBar"
-      className="z-30 fixed bg-[rgba(55,50,37,0)] flex text-white font-quicksand font-thin justify-between w-full py-5 lg:px-20 px-5 items-center"
+      className="z-30 fixed bg-[rgba(55,50,37,0)] flex text-white font-quicksand font-thin justify-between w-full py-5 px-5 items-center"
     >
       <a href="/">
         <img src={logoWhite} alt="logo" className="w-20" />

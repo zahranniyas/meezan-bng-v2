@@ -3,7 +3,7 @@ import { logoWhite } from "../assets";
 
 const FooterNagala = () => {
   return (
-    <div className=" bg-[#373225] flex max-sm:flex-col max-sm:items-center max-sm:gap-5 justify-between text-white font-quicksand font-thin px-[20px] lg:px-[200px] py-10">
+    <div className=" bg-primaryRed flex max-sm:flex-col max-sm:items-center max-sm:gap-5 justify-between text-white font-quicksand font-thin px-[20px] lg:px-[200px] py-10">
       <img src={logoWhite} alt="logo" className="w-[150px] object-contain" />
       <div className="flex max-sm:flex-row max-sm:text-xs flex-col gap-3">
         <a href="">About</a>

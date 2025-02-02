@@ -10,7 +10,7 @@ const HeroWorld = () => {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundBlendMode: "multiply",
-        backgroundColor: "#e6d199",
+        backgroundColor: "#99c6e6",
       }}
     >
       <SubHeader />

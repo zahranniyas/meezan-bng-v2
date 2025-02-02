@@ -18,6 +18,7 @@ const HeroNagala = () => {
         Nagala Bungalow
       </h1>
     </div>
+    // rgba(55,50,37,0)
   );
 };
 

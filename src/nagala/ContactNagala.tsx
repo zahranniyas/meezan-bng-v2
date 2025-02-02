@@ -72,27 +72,27 @@ const ContactNagala = () => {
           <p className="font-quicksand">info@meezan.com</p>
         </div>
       </div>
-      <div className="bg-secondary flex flex-col border-primary border-[2px] rounded-3xl shadow-2xl px-10 max-sm:px-2 book-container">
-        <h2 className="text-center pt-5 pb-4 border-b-[1px] border-primary text-2xl">
+      <div className="bg-secondaryRed flex flex-col border-primaryRed border-[2px] rounded-3xl shadow-2xl px-10 max-sm:px-2 book-container">
+        <h2 className="text-center pt-5 pb-4 border-b-[1px] border-primaryRed text-2xl">
           Book your Stay at <span>Hatale</span>
         </h2>
-        <div className="flex border-b-[1px] border-primary py-8 gap-5">
+        <div className="flex border-b-[1px] border-primaryRed py-8 gap-5">
           <input
             placeholder="Full Name"
             type="text"
             name=""
             id=""
-            className="focus:outline-none placeholder:text-primary/40 bg-transparent border-b-[1px] border-primary w-[50%]"
+            className="focus:outline-none placeholder:text-primaryRed/40 bg-transparent border-b-[1px] border-primaryRed w-[50%]"
           />
           <input
             type="text"
             placeholder="Email"
             name=""
             id=""
-            className="focus:outline-none placeholder:text-primary/40 bg-transparent border-b-[1px] border-primary w-[50%]"
+            className="focus:outline-none placeholder:text-primaryRed/40 bg-transparent border-b-[1px] border-primaryRed w-[50%]"
           />
         </div>
-        <div className="flex items-center justify-between text-center border-b-[1px] border-primary py-8 gap-5 w-full">
+        <div className="flex items-center justify-between text-center border-b-[1px] border-primaryRed py-8 gap-5 w-full">
           <div className="border-opacity-60 flex flex-col items-center justify-center">
             <p className="text-sm">Adults</p>
             <div className="mt-2 flex items-center gap-2 font-extralight opacity-80">
@@ -102,15 +102,15 @@ const ContactNagala = () => {
               >
                 <FaCircleMinus
                   className={`text-xl ${
-                    adultCount == 1 ? "text-white" : "text-primary"
+                    adultCount == 1 ? "text-white" : "text-primaryRed"
                   }`}
                 />
               </button>
-              <p className="border-[1px] border-primary rounded-sm pt-1 px-1 w-8 text-center">
+              <p className="border-[1px] border-primaryRed rounded-sm pt-1 px-1 w-8 text-center">
                 {adultCount}
               </p>
               <button onClick={() => setAdultCount((count) => count + 1)}>
-                <FaCirclePlus className="text-xl text-primary" />
+                <FaCirclePlus className="text-xl text-primaryRed" />
               </button>
             </div>
           </div>
@@ -121,7 +121,7 @@ const ContactNagala = () => {
                 minDate={new Date()}
                 selected={startDate}
                 onChange={(date: Date | null) => date && setStartDate(date)}
-                className="border-b-[1px] border-primary mt-2 font-quicksand max-sm:text-center font-thin focus:outline-none pl-1 text-xl max-sm:text-sm bg-transparent w-[120px] max-sm:w-full"
+                className="border-b-[1px] border-primaryRed mt-2 font-quicksand max-sm:text-center font-thin focus:outline-none pl-1 text-xl max-sm:text-sm bg-transparent w-[120px] max-sm:w-full"
                 dateFormat={"dd MMM, yyyy"}
               />
             </div>
@@ -131,7 +131,7 @@ const ContactNagala = () => {
                 minDate={startDate}
                 selected={endDate}
                 onChange={(date: Date | null) => date && setEndDate(date)}
-                className="border-b-[1px] mt-2 border-primary font-quicksand font-thin max-sm:text-center focus:outline-none pl-1 text-xl max-sm:text-sm bg-transparent w-[120px] max-sm:w-full"
+                className="border-b-[1px] mt-2 border-primaryRed font-quicksand font-thin max-sm:text-center focus:outline-none pl-1 text-xl max-sm:text-sm bg-transparent w-[120px] max-sm:w-full"
                 dateFormat={"dd MMM, yyyy"}
               />
             </div>
@@ -145,22 +145,22 @@ const ContactNagala = () => {
               >
                 <FaCircleMinus
                   className={`text-xl ${
-                    childrenCount == 0 ? "text-white" : "text-primary"
+                    childrenCount == 0 ? "text-white" : "text-primaryRed"
                   }`}
                 />
               </button>
-              <p className="border-[1px] border-primary rounded-sm pt-1 px-1 w-8 text-center">
+              <p className="border-[1px] border-primaryRed rounded-sm pt-1 px-1 w-8 text-center">
                 {childrenCount}
               </p>
               <button onClick={() => setChildrenCount((count) => count + 1)}>
-                <FaCirclePlus className="text-xl text-primary" />
+                <FaCirclePlus className="text-xl text-primaryRed" />
               </button>
             </div>
           </div>
         </div>
 
         <div className=" flex py-8 max-sm:py-4 items-center justify-center ">
-          <button className="bg-primary hover:bg-primary/50 transition-all active:scale-90 text-white font-thin rounded-md border-[1px] pb-[2px] px-3 pt-[5px]">
+          <button className="bg-primaryRed hover:bg-primaryRed/50 transition-all active:scale-90 text-white font-thin rounded-md border-[1px] pb-[2px] px-3 pt-[5px]">
             Send Inquiry
           </button>
         </div>

@@ -83,7 +83,7 @@ const FacilitiesNagala = () => {
       id="outdoor"
     >
       <h2 className="font-quicksand text-lg fac-text">Facilities</h2>
-      <div className="border-b-[1px] border-secondary w-[100px] fac-text"></div>
+      <div className="border-b-[1px] border-secondaryRed w-[100px] fac-text"></div>
       <div className="flex lg:flex-row flex-col justify-between items-center w-full">
         <p className="mt-5 text-5xl max-sm:text-2xl fac-text">
           Outdoor Activities
@@ -100,7 +100,7 @@ const FacilitiesNagala = () => {
               }}
               key={i}
               className={` px-[10px] pt-[6px] pb-[4px] rounded-lg shadow-lg transform active:scale-75 transition-transform ${
-                active == i ? "bg-primary text-white" : "bg-secondary"
+                active == i ? "bg-primaryRed text-white" : "bg-secondaryRed"
               }`}
             >
               {item}
@@ -121,14 +121,14 @@ const FacilitiesNagala = () => {
               alt=""
               className="w-[600px] h-[500px] object-cover rounded-xl"
             />
-            <div className="absolute z-20 bg-primary text-white w-[450px] max-sm:w-[300px] self-center bottom-[-100px] max-sm:bottom-[-10px] lg:left-auto left-[-10px] p-5 rounded-xl fac-subtext">
+            <div className="absolute z-20 bg-primaryRed text-white w-[450px] max-sm:w-[300px] self-center bottom-[-100px] max-sm:bottom-[-10px] lg:left-auto left-[-10px] p-5 rounded-xl fac-subtext">
               <h2 className="text-3xl mb-2 max-sm:text-xl fac-subtext">
                 {item.title}
               </h2>
               <p className="font-quicksand font-thin text-lg border-b-[1px] pb-5 border-white max-sm:text-sm fac-subtext">
                 {item.desc01}
               </p>
-              <p className="text-secondary font-quicksand font-thin text-lg mt-5 max-sm:text-sm fac-subtext">
+              <p className="text-secondaryRed font-quicksand font-thin text-lg mt-5 max-sm:text-sm fac-subtext">
                 {item.desc02}
               </p>
             </div>

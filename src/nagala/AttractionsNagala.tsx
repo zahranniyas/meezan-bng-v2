@@ -44,14 +44,14 @@ const AttractionsNagala = () => {
 
   return (
     <div
-      className=" lg:px-[100px] px-[20px] bg-primary py-[100px] max-sm:pt-[40px] max-sm:pb-[50px] text-white"
+      className=" lg:px-[100px] px-[20px] bg-primaryRed py-[100px] max-sm:pt-[40px] max-sm:pb-[50px] text-white"
       id="attractions"
     >
       <div className="flex flex-col items-center">
         <h2 className="font-quicksand text-lg text-center att-AnimTxt">
           Attractions
         </h2>
-        <div className="border-b-[1px] border-secondary w-[100px] att-AnimTxt"></div>
+        <div className="border-b-[1px] border-secondaryRed w-[100px] att-AnimTxt"></div>
       </div>
       <p className="mt-5 text-5xl text-center max-sm:text-2xl att-AnimTxt">
         Places to Visit
@@ -83,7 +83,7 @@ const AttractionsNagala = () => {
               <p className=" font-quicksand text-sm">{item.desc}</p>
               <a
                 href="/"
-                className="bg-secondary flex justify-center items-center w-[80px] mt-2 h-[30px] rounded-lg"
+                className="bg-secondaryRed flex justify-center items-center w-[80px] mt-2 h-[30px] rounded-lg"
               >
                 <p className="font-quicksand text-xs text-black">Directions</p>
               </a>

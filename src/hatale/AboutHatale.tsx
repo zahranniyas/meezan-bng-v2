@@ -41,7 +41,7 @@ const AboutHatale = () => {
       id="haAboutMain"
     >
       <div className="basis-[1/2]" id="aboutslider">
-        <ImageSlider gallery={hataleAboutMain} />
+        <ImageSlider gallery={hataleAboutMain} sliderBtnColor="#e6d199" />
       </div>
       <div className="lg:basis-[1/2] lg:items-start lg:text-left text-center flex flex-col items-center">
         <h2 className="font-quicksand text-lg about-text">About Us</h2>
