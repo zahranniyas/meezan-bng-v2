@@ -13,7 +13,11 @@ const HeroWorld = () => {
         backgroundColor: "#99c6e6",
       }}
     >
-      <SubHeader />
+      <SubHeader
+        primaryColor="rgba(17, 36, 59, 1)"
+        secondaryColor="#c3e3fa"
+        thirdColor="#4786b6"
+      />
       <h1 className="text-4xl text-center mt-[120px] max-sm:mt-[110px] max-sm:text-xl">
         Mini World's End Bungalow
       </h1>

@@ -13,7 +13,11 @@ const HeroNagala = () => {
         backgroundColor: "#e6d199",
       }}
     >
-      <SubHeader />
+      <SubHeader
+        primaryColor="rgba(66, 25, 38, 1)"
+        secondaryColor="#fac8d7"
+        thirdColor="#b64766"
+      />
       <h1 className="text-4xl text-center mt-[120px] max-sm:mt-[110px] max-sm:text-xl">
         Nagala Bungalow
       </h1>

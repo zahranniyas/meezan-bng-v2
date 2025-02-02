@@ -13,7 +13,13 @@ type MutableRef<T> = {
   current: T;
 };
 
-const SubHeader = () => {
+interface Props {
+  primaryColor: string;
+  secondaryColor: string;
+  thirdColor: string;
+}
+
+const SubHeader = ({ primaryColor, secondaryColor, thirdColor }: Props) => {
   const navList = [
     {
       name: "Bungalows",
@@ -44,7 +50,7 @@ const SubHeader = () => {
     ): void => {
       if (event.matches) {
         gsap.to("#scrollBar", {
-          backgroundColor: "rgba(55,50,37,1)",
+          backgroundColor: primaryColor,
           width: "75%",
           marginTop: 10,
           scale: 0.8,
@@ -53,7 +59,7 @@ const SubHeader = () => {
           opacity: 1,
           borderRadius: 20,
           borderWidth: "1px",
-          borderColor: "#e6d199",
+          borderColor: secondaryColor,
           scrollTrigger: {
             trigger: "#scrollBar",
             start: "bottom",
@@ -63,7 +69,7 @@ const SubHeader = () => {
         });
       } else {
         gsap.to("#scrollBar", {
-          backgroundColor: "rgba(55,50,37,1)",
+          backgroundColor: primaryColor,
           scrollTrigger: {
             trigger: "#scrollBar",
             start: "bottom",
@@ -193,34 +199,44 @@ const SubHeader = () => {
           onMouseEnter={() => setSubmenu(true)}
           onMouseLeave={() => setSubmenu(false)}
         >
-          <a href="#" className="hover:text-[#e6d199] transition-colors">
+          <a href="#" className="hover:text-gray-200 transition-colors">
             Bungalows
             <FaChevronDown className="inline pl-2" />
           </a>
           {submenu && (
             <div className="absolute pt-1 w-[150px]">
-              <div className=" flex flex-col mt-[5px]  bg-primary  px-2 border-[1px] border-secondary rounded-lg">
+              <div
+                className=" flex flex-col mt-[5px]  px-2 border-[1px] rounded-lg"
+                style={{
+                  backgroundColor: primaryColor,
+                  borderColor: secondaryColor,
+                }}
+              >
                 <a
                   href="/anacoombra/"
-                  className="hover:text-[#e6d199] transition-colors border-b-[1px] py-2 border-secondary/25"
+                  className="hover:text-gray-200 transition-colors border-b-[1px] py-2 "
+                  style={{ borderColor: secondaryColor }}
                 >
                   Anacoombra
                 </a>
                 <a
                   href="/hatale/"
-                  className="hover:text-[#e6d199] transition-colors border-b-[1px] py-2 border-secondary/25"
+                  className="hover:text-gray-200 transition-colors border-b-[1px] py-2 "
+                  style={{ borderColor: secondaryColor }}
                 >
                   Hatale
                 </a>
                 <a
                   href="/worldsend"
-                  className="hover:text-[#e6d199] transition-colors border-b-[1px] py-2 border-secondary/25"
+                  className="hover:text-gray-200 transition-colors border-b-[1px] py-2 "
+                  style={{ borderColor: secondaryColor }}
                 >
                   Mini-World's End
                 </a>
                 <a
                   href="/nagala/"
-                  className="hover:text-[#e6d199] transition-colors border-b-[1px] py-2 border-secondary/25"
+                  className="hover:text-gray-200 transition-colors py-2 "
+                  style={{ borderColor: secondaryColor }}
                 >
                   Nagala
                 </a>
@@ -228,21 +244,21 @@ const SubHeader = () => {
             </div>
           )}
         </div>
-        <a href="#outdoor" className="hover:text-[#e6d199] transition-colors">
+        <a href="#outdoor" className="hover:text-gray-200 transition-colors">
           Outdoor Facilities
         </a>
-        <a href="#indoor" className="hover:text-[#e6d199] transition-colors">
+        <a href="#indoor" className="hover:text-gray-200 transition-colors">
           Indoor Facilities
         </a>
         <a
           href="#attractions"
-          className="hover:text-[#e6d199] transition-colors"
+          className="hover:text-gray-200 transition-colors"
         >
           Attractions
         </a>
         <a
           href="#contact"
-          className="px-3 py-1 border-[1px] border-white hover:text-[#e6d199] hover:border-[#e6d199] transition-colors"
+          className="px-3 py-1 border-[1px] border-white hover:text-gray-200 hover:border-gray-200 transition-colors"
         >
           Booking
         </a>
@@ -250,20 +266,23 @@ const SubHeader = () => {
       {/* MObile Nav */}
       <div
         ref={container}
-        className="bg-[#b69747] relative flex justify-center items-center rounded-full w-[30px] h-[30px] lg:hidden"
+        className=" relative flex justify-center items-center rounded-full w-[30px] h-[30px] lg:hidden"
+        style={{ backgroundColor: thirdColor }}
       >
         <button
           onClick={() => {
             btnAnimation();
             setSubmenu(false);
           }}
-          className="box z-30 bg-[#b69747] rounded-full"
+          className="box z-30 rounded-full"
+          style={{ backgroundColor: thirdColor }}
         >
           <LuPlus />
         </button>
         <div
           id="navCont"
-          className="box z-20 bg-[#b69747] rounded-xl absolute top-[4px] right-[4px] w-[0px] h-[0px] pl-5 overflow-hidden flex flex-col justify-center"
+          className="box z-20 rounded-xl absolute top-[4px] right-[4px] w-[0px] h-[0px] pl-5 overflow-hidden flex flex-col justify-center"
+          style={{ backgroundColor: thirdColor }}
         >
           {navList.map((item, i) => (
             <div
