@@ -209,9 +209,7 @@ const About = () => {
           choose from. Hatale Bungalow which was initially a plantation bungalow
           on the Hatale Tea Estate was transformed by the Management into a
           modern luxury villa. <br />
-          <br /> Hatale Bungalow which was initially a plantation bungalow on
-          the Hatale Tea Estate was transformed by the Management into a modern
-          luxury villa.
+          <br /> Each bungalow offers a unique blend of heritage charm and contemporary elegance, providing an unforgettable retreat amidst breathtaking landscapes.
         </p>
       </div>
       <div className="relative flex justify-end items-center mt-20 lg:mt-0">
