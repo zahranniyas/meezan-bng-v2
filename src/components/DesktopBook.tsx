@@ -23,7 +23,7 @@ const DesktopBook = () => {
   const [adultCount, setAdultCount] = useState(1);
 
   // Dropdown
-  const options = ["Anacoombra", "Hatale", "Mini-World's End", "Nagala"];
+  const options = ["Ancoombura", "Hatale", "Mini-World's End", "Nagala"];
   const defaultOption = options[0];
 
   const [selectedOption, setSelectedOption] = useState(defaultOption);

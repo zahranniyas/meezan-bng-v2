@@ -24,15 +24,15 @@ const Header = () => {
     },
     {
       name: "Facilities",
-      url: "#",
+      url: "#services",
     },
     {
       name: "Booking",
-      url: "#",
+      url: "#booking",
     },
     {
       name: "Contact",
-      url: "#",
+      url: "#contact",
     },
   ];
 
@@ -196,20 +196,21 @@ const Header = () => {
 
   const subList = [
     {
-      name: "Hatale",
-      url: "/hatale/",
+      name: "Ancoombura",
+      url: "/ancoombura",
     },
     {
-      name: "Anacoombra",
-      url: "/hatale/",
+      name: "Hatale",
+      url: "/hatale",
     },
+
     {
       name: "Mini-World's End",
-      url: "/hatale/",
+      url: "/worldsend",
     },
     {
       name: "Nagala",
-      url: "/hatale/",
+      url: "/nagala",
     },
   ];
 
@@ -248,10 +249,10 @@ const Header = () => {
             <div className="absolute pt-1 w-[150px]">
               <div className=" flex flex-col mt-[5px]  bg-primary  px-2 border-[1px] border-secondary rounded-lg">
                 <a
-                  href="/anacoombra/"
+                  href="/ancoombura/"
                   className="hover:text-[#e6d199] transition-colors border-b-[1px] py-2 border-secondary/25"
                 >
-                  Anacoombra
+                  Ancoombura
                 </a>
                 <a
                   href="/hatale/"

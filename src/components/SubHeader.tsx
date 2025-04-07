@@ -161,20 +161,20 @@ const SubHeader = ({ primaryColor, secondaryColor, thirdColor }: Props) => {
 
   const subList = [
     {
-      name: "Hatale",
-      url: "/hatale/",
+      name: "Ancoombura",
+      url: "/ancoombura",
     },
     {
-      name: "Anacoombra",
-      url: "/hatale/",
+      name: "Hatale",
+      url: "/hatale",
     },
     {
       name: "Mini-World's End",
-      url: "/hatale/",
+      url: "/worldsend",
     },
     {
       name: "Nagala",
-      url: "/hatale/",
+      url: "/nagala",
     },
   ];
 
@@ -213,11 +213,11 @@ const SubHeader = ({ primaryColor, secondaryColor, thirdColor }: Props) => {
                 }}
               >
                 <a
-                  href="/anacoombra/"
+                  href="/ancoombura/"
                   className="hover:text-gray-200 transition-colors border-b-[1px] py-2 "
                   style={{ borderColor: secondaryColor }}
                 >
-                  Anacoombra
+                  Ancoombura
                 </a>
                 <a
                   href="/hatale/"

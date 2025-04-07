@@ -1,6 +1,24 @@
 //All Lists for Mapping
 
 import {
+  anfac0101,
+  anfac0102,
+  anfac0201,
+  anfac0202,
+  anfac0301,
+  anfac0302,
+  anfac0401,
+  anfac0402,
+  anfac0501,
+  anfac0502,
+  anIndoor01,
+  anIndoor02,
+  anIndoor03,
+  anIndoor04,
+  anPlacesSafari,
+  anPlacesTea,
+  anPlacesTrekking,
+  anPlacesWater,
   hafac0101,
   hafac0102,
   hafac0201,
@@ -40,6 +58,110 @@ import {
   wrplacesWaterfall,
   wrplacesWorld,
 } from "../assets";
+
+// Anacoombra
+
+export const outdoorListAnac = [
+  {
+    title: "Swimming Pool",
+    desc01:
+      "Immerse yourself in relaxation with our spacious swimming pool. Whether you're looking for a peaceful swim to soothe your mind or a refreshing dip on a warm day, the pool provides the perfect environment. ",
+    desc02:
+      "Surrounded by lush greenery and stunning views, it's an ideal spot to refresh your senses, relax in peace, or enjoy a fun-filled afternoon with family and friends.",
+    img01: anfac0101,
+    img02: anfac0102,
+  },
+  {
+    title: "Hiking & Cycling",
+    desc01:
+      "Experience the beauty of the outdoors with picturesque hiking trails and serene nature walks surrounding the property, offering breathtaking views and a close connection to nature",
+    desc02:
+      "Explore the lush landscapes and immerse yourself in breathtaking views, offering a perfect escape into nature. For those seeking adventure, cycling opportunities further enhance your outdoor experience.",
+    img01: anfac0201,
+    img02: anfac0202,
+  },
+  {
+    title: "Birdwatching & Photography",
+    desc01:
+      "Delight in the rich biodiversity around the property, making it an ideal spot for bird watching enthusiasts and photography lovers",
+    desc02:
+      "Capture the essence of nature with stunning moments from the rich biodiversity that surrounds you.",
+    img01: anfac0301,
+    img02: anfac0302,
+  },
+  {
+    title: "Sports Grounds",
+    desc01:
+      "Enjoy open spaces designed for recreational activities, perfect for playing cricket, football, rugby, or badminton.",
+    desc02:
+      "Enjoy these open spaces for sports and fun activities in a peaceful, scenic setting.",
+    img01: anfac0401,
+    img02: anfac0402,
+  },
+  {
+    title: "Children's Play Area",
+    desc01:
+      "A dedicated space for kids to delight in swings, a mat slide, a merry-go-round, and seesaws, ensuring hours of entertainment and laughter",
+    desc02:
+      "The play area also includes climbing frames, interactive play panels, and a soft surface for safe and imaginative adventures, making it a perfect spot for kids to explore and have fun.",
+    img01: anfac0501,
+    img02: anfac0502,
+  },
+];
+
+export const indoorListAnac = [
+  {
+    title: "In-House Cook & Culinary Delights",
+    desc: "Enjoy the convenience of a skilled in-house cook ready to prepare delicious meals tailored to your preferences. For a special treat, indulge in a delightful barbeque experience amidst the scenic surroundings.",
+    img: anIndoor01,
+    style: "col-span-1 row-span-1",
+  },
+  {
+    title: "Free Parking & Heli-pad",
+    desc: "Indulge in the luxury of time. While a three-hour journey from Colombo by other means may seem daunting, a breathtaking 40-minute helicopter flight transforms your travel experience into a memorable highlight of your stay.",
+    img: anIndoor02,
+    style: "col-span-1 row-span-1",
+  },
+  {
+    title: "Indoor Recreation & Games",
+    desc: "Unwind with a variety of indoor entertainment options, including a pool table, foosball table, carrom, chess, checkers, and card games, perfect for relaxation and friendly competition.",
+    img: anIndoor03,
+    style: " lg:col-span-1 lg:row-span-2 md:row-span-1 md:col-span-1",
+  },
+  {
+    title: "Free Wi-Fi, Television & DVD Player",
+    desc: "Stay connected and entertained throughout your stay at Hatale Bungalow. Enjoy free WiFi for browsing, streaming, or staying in touch with loved ones. Unwind with your favorite shows and movies on the television or explore a curated collection of DVDs for a cozy night in.",
+    img: anIndoor04,
+    style: "lg:col-span-2 lg:row-span-1 md:col-span-1 ",
+  },
+];
+
+export const placesVidListAnac = [
+  {
+    name: "Sera Ella Waterfalls",
+    desc: "One of the interesting features of this fall is the cave behind the fall. Steps has been cut to reach this cave and can be safely reached even when the fall is at full flow.",
+    link: "https://maps.app.goo.gl/CzKQDbq1ouV9K3uN9",
+    vid: anPlacesWater,
+  },
+  {
+    name: "Trekking Tour",
+    desc: "For wildlife enthusiasts and nature lovers, we offer an exciting Night Safari and Trekking Tour, available upon prior arrangement with management",
+    link: "https://maps.app.goo.gl/Ssi58kJSBKtkywHSA",
+    vid: anPlacesTrekking,
+  },
+  {
+    name: "Night Safari",
+    desc: "For wildlife enthusiasts and nature lovers, we offer an exciting Night Safari and Trekking Tour, available upon prior arrangement with management",
+    link: "https://maps.app.goo.gl/Ssi58kJSBKtkywHSA",
+    vid: anPlacesSafari,
+  },
+  {
+    name: "Ancoombura Tea Factory",
+    desc: "Explore our state-of-the-art Tea Factory, where you can observe both the traditional and fully automated Orthodox tea manufacturing process, alongside the newly installed CTC (Cut, Twist, and Curl) system, all within a single facility",
+    link: "https://maps.app.goo.gl/Ssi58kJSBKtkywHSA",
+    vid: anPlacesTea,
+  },
+];
 
 // Hatale
 export const placesVidList = [

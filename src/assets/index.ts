@@ -4,6 +4,7 @@ import aboutImg02 from "./images/about-img-02.jpg";
 import heroBg from "./images/hero-bg-03.jpg";
 import heroBgNagala from "./images/nagala/hero-bg.jpg";
 import heroBgWorld from "./images/world/hero-bg.jpg";
+import heroBgAnac from "./images/anac/hero-bg.jpg";
 
 import logoWhite from "./images/logo-white.png";
 import bungOne from "./images/bung-01.jpg";
@@ -33,6 +34,27 @@ import woabout03 from "./images/world/about-3.jpg";
 import woabout04 from "./images/world/about-4.jpg";
 import woabout05 from "./images/world/about-5.jpg";
 
+import anabout01 from "./images/anac/about-1.jpg";
+import anabout02 from "./images/anac/about-2.jpg";
+import anabout03 from "./images/anac/about-3.jpg";
+import anabout04 from "./images/anac/about-4.jpg";
+import anabout05 from "./images/anac/about-5.jpg";
+import anabout06 from "./images/anac/about-6.jpg";
+import anabout07 from "./images/anac/about-7.jpg";
+import anabout08 from "./images/anac/about-8.jpg";
+import anabout09 from "./images/anac/about-9.jpg";
+
+import anfac0101 from "./images/anac/facilities-1-1.jpg";
+import anfac0102 from "./images/anac/facilities-1-2.jpg";
+import anfac0201 from "./images/anac/facilities-2-1.jpg";
+import anfac0202 from "./images/anac/facilities-2-2.jpg";
+import anfac0301 from "./images/anac/facilities-3-1.jpg";
+import anfac0302 from "./images/anac/facilities-3-2.jpg";
+import anfac0401 from "./images/anac/facilities-4-1.jpg";
+import anfac0402 from "./images/anac/facilities-4-2.jpg";
+import anfac0501 from "./images/anac/facilities-5-1.jpg";
+import anfac0502 from "./images/anac/facilities-5-2.jpg";
+
 import hafac0101 from "./images/hatale/facilities-1-1.jpg";
 import hafac0102 from "./images/hatale/facilities-1-2.jpg";
 import hafac0201 from "./images/hatale/facilities-2-1.jpg";
@@ -61,6 +83,16 @@ import naPlacesWas from "./images/nagala/places-wasgamuwa.jpg";
 import naPlacesSafari from "./images/nagala/places-safari.webp";
 import naPlacesWaterfall from "./images/nagala/places-waterfall.jpg";
 
+import anPlacesTea from "./images/anac/places-tea.jpg";
+import anPlacesSafari from "./images/anac/places-safari.jpg";
+import anPlacesTrekking from "./images/anac/places-trekking.jpg";
+import anPlacesWater from "./images/anac/places-waterfall.jpg";
+
+import anIndoor01 from "./images/anac/indoor-1.jpg";
+import anIndoor02 from "./images/anac/indoor-2.jpg";
+import anIndoor03 from "./images/anac/indoor-3.jpg";
+import anIndoor04 from "./images/anac/indoor-4.jpg";
+
 import indoor01 from "./images/hatale/outdoor-01.jpg";
 import indoor02 from "./images/hatale/outdoor-02.jpg";
 import indoor03 from "./images/hatale/outdoor-03.jpg";
@@ -86,6 +118,7 @@ export {
   heroBg,
   heroBgNagala,
   heroBgWorld,
+  heroBgAnac,
   aboutImg01,
   aboutImg02,
   logoWhite,
@@ -97,6 +130,16 @@ export {
   servTwo,
   servThree,
   comingsoonVid,
+  anfac0101,
+  anfac0102,
+  anfac0201,
+  anfac0202,
+  anfac0301,
+  anfac0302,
+  anfac0401,
+  anfac0402,
+  anfac0501,
+  anfac0502,
   hafac0101,
   hafac0102,
   hafac0201,
@@ -120,6 +163,14 @@ export {
   naPlacesWas,
   naPlacesSafari,
   naPlacesWaterfall,
+  anPlacesTea,
+  anPlacesSafari,
+  anPlacesTrekking,
+  anPlacesWater,
+  anIndoor01,
+  anIndoor02,
+  anIndoor03,
+  anIndoor04,
   indoor01,
   indoor02,
   indoor03,
@@ -160,4 +211,16 @@ export const worldAbout = [
   woabout03,
   woabout04,
   woabout05,
+];
+
+export const anacAbout = [
+  anabout01,
+  anabout02,
+  anabout03,
+  anabout04,
+  anabout05,
+  anabout06,
+  anabout07,
+  anabout08,
+  anabout09,
 ];

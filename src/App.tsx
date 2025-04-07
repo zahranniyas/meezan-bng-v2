@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hatale" element={<Hatale />} />
-        <Route path="/anacoombra" element={<Anacoombra />} />
+        <Route path="/ancoombura" element={<Anacoombra />} />
         <Route path="/nagala" element={<Nagala />} />
         <Route path="/worldsend" element={<WorldsEnd />} />
       </Routes>

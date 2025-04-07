@@ -8,10 +8,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 const bungalowInfo = [
   {
-    name: "Meezan Anacoombra Tea Estate Bungalow",
+    name: "Meezan Ancoombura Tea Estate Bungalow",
     desc: "This charming colonial-style bungalow, nestled amidst a serene tea plantation, offers a tranquil retreat surrounded by breathtaking mountain views and lush greenery.",
     img: bungOne,
-    link: "/anacoombra/",
+    link: "/ancoombura/",
   },
   {
     name: "Meezan Hatale Tea Estate Bungalow",

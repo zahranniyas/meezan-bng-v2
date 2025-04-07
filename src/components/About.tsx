@@ -206,10 +206,14 @@ const About = () => {
         </div>
         <p className="max-w-[40rem] mt-5 font-quicksand about-text max-sm:text-sm">
           Four luxury estate bungalows in four exotic locations for you to
-          choose from. Hatale Bungalow which was initially a plantation bungalow
-          on the Hatale Tea Estate was transformed by the Management into a
-          modern luxury villa. <br />
-          <br /> Each bungalow offers a unique blend of heritage charm and contemporary elegance, providing an unforgettable retreat amidst breathtaking landscapes.
+          choose from. Nestled in scenic tea estates and lush forests, each
+          retreat offers spacious rooms, modern comforts, and breathtaking
+          views. <br />
+          <br /> Whether you're seeking peaceful relaxation, wildlife
+          encounters, or thrilling hikes, our charming bungalows provide the
+          perfect escape. With personalized service, skilled chefs, and cozy
+          settings, your stay promises comfort, tranquility, and unforgettable
+          memories amid the beauty of Sri Lanka’s hill country.
         </p>
       </div>
       <div className="relative flex justify-end items-center mt-20 lg:mt-0">
