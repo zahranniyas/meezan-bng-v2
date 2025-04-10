@@ -40,7 +40,7 @@ const FacilitiesAnac = () => {
         start: "bottom, bottom",
       },
     });
-    gsap.from("#imgOne", {
+    gsap.from("#imgOneF", {
       y: 25,
       opacity: 0,
       stagger: 0.2,
@@ -51,7 +51,7 @@ const FacilitiesAnac = () => {
         start: "bottom, bottom",
       },
     });
-    gsap.from("#imgTwo", {
+    gsap.from("#imgTwoF", {
       y: 25,
       opacity: 0,
       stagger: 0.2,
@@ -122,7 +122,7 @@ const FacilitiesAnac = () => {
         >
           <div className="relative flex flex-col w-[600px] mt-10">
             <img
-              id="imgOne"
+              id="imgOneF"
               src={item.img01}
               alt=""
               className="w-[600px] h-[500px] object-cover rounded-xl"
@@ -140,7 +140,7 @@ const FacilitiesAnac = () => {
             </div>
           </div>
           <img
-            id="imgTwo"
+            id="imgTwoF"
             src={item.img02}
             alt=""
             className="lg:w-[calc(100%-600px)] w-[50%] max-sm:w-[40%] h-[350px] lg:ml-5 ml-2 rounded-xl object-cover"
