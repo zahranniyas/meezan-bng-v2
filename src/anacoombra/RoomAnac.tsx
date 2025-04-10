@@ -1,5 +1,4 @@
 // import { useGSAP } from "@gsap/react";
-import { aboutImg01, aboutImg02 } from "../assets";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { FaChevronRight } from "react-icons/fa6";

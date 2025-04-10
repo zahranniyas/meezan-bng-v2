@@ -1,18 +1,16 @@
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { heroBgAnac } from "../assets";
 import SubHeader from "../components/SubHeader";
 
-const HeroWorld = () => {
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+const HeroWorld: React.FC = () => {
+  const [mousePos, setMousePos] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
 
-  const handleMouseMove = useCallback((e) => {
+  const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
     setMousePos({ x: e.clientX, y: e.clientY });
   }, []);
 
-  // Increase movementFactor if you want more dramatic movement
   const movementFactor = 0.01;
 
-  // Center the parallax around the middle of the screen
   const backgroundPosX = 50 + (mousePos.x - window.innerWidth / 2) * movementFactor;
   const backgroundPosY = 50 + (mousePos.y - window.innerHeight / 2) * movementFactor;
 
@@ -22,8 +20,6 @@ const HeroWorld = () => {
       className="h-screen items-center w-full bg-black flex flex-col text-white"
       style={{
         backgroundImage: `url(${heroBgAnac})`,
-        // Scale up the background to allow for more movement in all directions
-        // backgroundSize: "120%",
         backgroundSize: "cover",
         backgroundPosition: `${backgroundPosX}% ${backgroundPosY}%`,
         backgroundRepeat: "no-repeat",
