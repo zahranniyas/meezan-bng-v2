@@ -1,11 +1,20 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
-const Slideshow = ({ images, interval = 3000, threshold = 0.2 }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const slideshowRef = useRef(null);
-  const intervalRef = useRef(null);
+interface SlideshowProps {
+  images: string[];
+  interval?: number;
+  threshold?: number;
+}
 
-  // Start the slideshow
+const Slideshow: React.FC<SlideshowProps> = ({
+  images,
+  interval = 3000,
+  threshold = 0.2,
+}) => {
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const slideshowRef = useRef<HTMLDivElement | null>(null);
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+
   const startSlideshow = () => {
     if (intervalRef.current) return; // Avoid multiple intervals
     intervalRef.current = setInterval(() => {
@@ -13,7 +22,6 @@ const Slideshow = ({ images, interval = 3000, threshold = 0.2 }) => {
     }, interval);
   };
 
-  // Stop the slideshow
   const stopSlideshow = () => {
     if (intervalRef.current) {
       clearInterval(intervalRef.current);
@@ -25,7 +33,6 @@ const Slideshow = ({ images, interval = 3000, threshold = 0.2 }) => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          // If slideshow is in view, start sliding; otherwise stop
           if (entry.isIntersecting) {
             startSlideshow();
           } else {
@@ -44,18 +51,16 @@ const Slideshow = ({ images, interval = 3000, threshold = 0.2 }) => {
       if (slideshowRef.current) {
         observer.unobserve(slideshowRef.current);
       }
-      stopSlideshow(); // Cleanup on unmount
+      stopSlideshow();
     };
   }, [images, interval, threshold]);
 
   return (
     <div ref={slideshowRef} className="relative w-full h-full overflow-hidden">
-      {/* The “track” that slides horizontally */}
       <div
         className="flex transition-transform duration-700 ease-in-out w-full h-full"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
-        {/* Render each image full-width, side by side */}
         {images.map((src, idx) => (
           <div key={idx} className="w-full shrink-0">
             <img
