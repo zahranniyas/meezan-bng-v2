@@ -65,7 +65,7 @@ const ContactNagala = () => {
         </p>
         <div className="flex items-center gap-2 max-sm:justify-center contact-txt">
           <FaSquarePhone />
-          <p className="font-quicksand">+94 777 111 222</p>
+          <p className="font-quicksand">+94 76 830 4310</p>
         </div>
         <div className="flex items-center gap-2 max-sm:justify-center contact-txt">
           <FaSquareEnvelope />

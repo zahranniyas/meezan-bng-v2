@@ -20,7 +20,7 @@ const FooterHatale = () => {
         <a href="">Privacy Policy</a>
       </div>
       <div className="flex max-sm:flex-row max-sm:text-xs flex-col gap-3">
-        <p>+94 777 111 222</p>
+        <p>+94 76 830 4310</p>
         <p>info@meezan.com</p>
         <p>
           <FaFacebook className="inline mr-3" />
