@@ -1,14 +1,14 @@
-// import AboutAnac from "../anacoombra/AboutAnac";
-import AttractionsAnac from "../anacoombra/AttractionsAnac";
-import ContactAnac from "../anacoombra/ContactAnac";
-import FacilitiesAnac from "../anacoombra/FacilitiesAnac";
-import FooterAnac from "../anacoombra/FooterAnac";
-import GalleryAnac from "../anacoombra/GalleryAnac";
-import HeroAnac from "../anacoombra/HeroAnac";
-import IndFacilitiesAnac from "../anacoombra/IndFacilitiesAnac";
-import Quote from "../anacoombra/Quote";
-import RoomAnac from "../anacoombra/RoomAnac";
-import ViewAnac from "../anacoombra/ViewAnac";
+import AttractionsAnac from "../bungalows/anacoombra/AttractionsAnac";
+import ContactAnac from "../bungalows/anacoombra/ContactAnac";
+import FacilitiesAnac from "../bungalows/anacoombra/FacilitiesAnac";
+import FooterAnac from "../bungalows/anacoombra/FooterAnac";
+import GalleryAnac from "../bungalows/anacoombra/GalleryAnac";
+import HeroAnac from "../bungalows/anacoombra/HeroAnac";
+import IndFacilitiesAnac from "../bungalows/anacoombra/IndFacilitiesAnac";
+import QuoteAnac from "../bungalows/anacoombra/QuoteAnac";
+import RoomAnac from "../bungalows/anacoombra/RoomAnac";
+import RoomsImagesAnac from "../bungalows/anacoombra/RoomsImagesAnac";
+import ViewAnac from "../bungalows/anacoombra/ViewAnac";
 import MetaData from "../components/MetaData";
 
 const Anacoombra = () => {
@@ -16,10 +16,10 @@ const Anacoombra = () => {
     <div className="font-el-messiri">
       <MetaData title="Ancoombura Tea Estate Bungalow" />
       <HeroAnac />
-      <Quote />
+      <QuoteAnac />
       <ViewAnac />
-      {/* <AboutAnac /> */}
       <RoomAnac />
+      <RoomsImagesAnac />
       <FacilitiesAnac />
       <IndFacilitiesAnac />
       <AttractionsAnac />

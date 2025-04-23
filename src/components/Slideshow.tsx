@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from "react";
 
 interface SlideshowProps {
   images: string[];
@@ -16,7 +16,7 @@ const Slideshow: React.FC<SlideshowProps> = ({
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   const startSlideshow = () => {
-    if (intervalRef.current) return; // Avoid multiple intervals
+    if (intervalRef.current) return;
     intervalRef.current = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, interval);
@@ -57,20 +57,19 @@ const Slideshow: React.FC<SlideshowProps> = ({
 
   return (
     <div ref={slideshowRef} className="relative w-full h-full overflow-hidden">
-      <div
-        className="flex transition-transform duration-700 ease-in-out w-full h-full"
-        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-      >
-        {images.map((src, idx) => (
-          <div key={idx} className="w-full shrink-0">
-            <img
-              src={src}
-              alt={`slide-${idx}`}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        ))}
-      </div>
+      {images.map((src, idx) => (
+        <img
+          key={idx}
+          src={src}
+          alt={`slide-${idx}`}
+          className={`absolute w-full h-full object-cover object-bottom transition-opacity duration-1000 ease-in-out transform transition-transform ${
+            currentIndex === idx
+              ? "opacity-100 scale-105 z-10"
+              : "opacity-0 scale-100 z-0"
+          }`}
+          style={{ transitionProperty: "opacity, transform" }}
+        />
+      ))}
     </div>
   );
 };

@@ -112,13 +112,13 @@ export const outdoorListAnac = [
 export const indoorListAnac = [
   {
     title: "In-House Cook & Culinary Delights",
-    desc: "Enjoy the convenience of a skilled in-house cook ready to prepare delicious meals tailored to your preferences. For a special treat, indulge in a delightful barbeque experience amidst the scenic surroundings.",
+    desc: "Enjoy the convenience of a skilled in-house cook ready to prepare delicious meals tailored to your preferences. Indulge in a delightful barbeque experience amidst the scenic surroundings.",
     img: anIndoor01,
     style: "col-span-1 row-span-1",
   },
   {
     title: "Free Parking & Heli-pad",
-    desc: "Indulge in the luxury of time. While a three-hour journey from Colombo by other means may seem daunting, a breathtaking 40-minute helicopter flight transforms your travel experience into a memorable highlight of your stay.",
+    desc: "Indulge in the luxury of time. A breathtaking 40-minute helicopter flight transforms your travel experience into a memorable highlight of your stay.",
     img: anIndoor02,
     style: "col-span-1 row-span-1",
   },
@@ -126,13 +126,13 @@ export const indoorListAnac = [
     title: "Indoor Recreation & Games",
     desc: "Unwind with a variety of indoor entertainment options, including a pool table, foosball table, carrom, chess, checkers, and card games, perfect for relaxation and friendly competition.",
     img: anIndoor03,
-    style: " lg:col-span-1 lg:row-span-2 md:row-span-1 md:col-span-1",
+    style: " lg:col-span-1 lg:row-span-1 md:row-span-1 md:col-span-1",
   },
   {
     title: "Free Wi-Fi, Television & DVD Player",
     desc: "Stay connected and entertained throughout your stay at Hatale Bungalow. Enjoy free WiFi for browsing, streaming, or staying in touch with loved ones. Unwind with your favorite shows and movies on the television or explore a curated collection of DVDs for a cozy night in.",
     img: anIndoor04,
-    style: "lg:col-span-2 lg:row-span-1 md:col-span-1 ",
+    style: "lg:col-span-3 lg:row-span-1 md:col-span-1 ",
   },
 ];
 
@@ -247,13 +247,13 @@ export const indoorList = [
     title: "Free Parking & Heli-pad",
     desc: "Indulge in the luxury of time. While a three-hour journey from Colombo by other means may seem daunting, a breathtaking 40-minute helicopter flight transforms your travel experience into a memorable highlight of your stay.",
     img: indoor03,
-    style: "lg:col-span-1 lg:row-span-2 md:row-span-1 md:col-span-1",
+    style: "lg:col-span-1 lg:row-span-1 md:row-span-1 md:col-span-1",
   },
   {
     title: "In-house Culinary Delights",
     desc: "Savor gourmet meals prepared by our skilled chef, customized to your taste or elevate your stay with a memorable barbecue under the stars.",
     img: indoor04,
-    style: "lg:col-span-2 lg:row-span-1 md:col-span-1",
+    style: "lg:col-span-3 lg:row-span-1 md:col-span-1",
   },
 ];
 
@@ -297,13 +297,13 @@ export const indoorListNagala = [
     title: "Free Wi-Fi, Television & DVD Player",
     desc: "Stay connected and entertained throughout your stay at Hatale Bungalow. Enjoy free WiFi for browsing, streaming, or staying in touch with loved ones. Unwind with your favorite shows and movies on the television or explore a curated collection of DVDs for a cozy night in.",
     img: naIndoor03,
-    style: " lg:col-span-1 lg:row-span-2 md:row-span-1 md:col-span-1",
+    style: " lg:col-span-1 lg:row-span-1 md:row-span-1 md:col-span-1",
   },
   {
     title: "Indoor Recreation & Games",
     desc: "Relax and have fun with a variety of indoor games, including a pool table, carom, chess, checkers, and card games, offering the perfect opportunity for leisure and friendly competition.",
     img: naIndoor04,
-    style: "lg:col-span-2 lg:row-span-1 md:col-span-1 ",
+    style: "lg:col-span-3 lg:row-span-1 md:col-span-1 ",
   },
 ];
 
@@ -368,13 +368,13 @@ export const indoorListWorld = [
     title: "Indoor Recreation & Games",
     desc: "Gather 'Round and Play! Unleash your competitive side with a variety of indoor games, perfect for family and friends",
     img: indoor02,
-    style: " lg:col-span-1 lg:row-span-2 md:row-span-1 md:col-span-1",
+    style: " lg:col-span-1 lg:row-span-1 md:row-span-1 md:col-span-1",
   },
   {
     title: "Free Wi-Fi, Television & DVD Player",
     desc: "Stay connected and entertained throughout your stay at Hatale Bungalow. Enjoy free WiFi for browsing, streaming, or staying in touch with loved ones. Unwind with your favorite shows and movies on the television or explore a curated collection of DVDs for a cozy night in.",
     img: worldIndoor03,
-    style: "lg:col-span-2 lg:row-span-1 md:col-span-1 ",
+    style: "lg:col-span-3 lg:row-span-1 md:col-span-1 ",
   },
 ];
 

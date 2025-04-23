@@ -5,6 +5,7 @@ import heroBg from "./images/hero-bg-03.jpg";
 import heroBgNagala from "./images/nagala/hero-bg.jpg";
 import heroBgWorld from "./images/world/hero-bg.jpg";
 import heroBgAnac from "./images/anac/hero-bg.jpg";
+import heroBgAnac2 from "./images/anac/hero-bg-2.jpg";
 
 import logoWhite from "./images/logo-white.png";
 import bungOne from "./images/bung-01.jpg";
@@ -83,7 +84,7 @@ import naPlacesWas from "./images/nagala/places-wasgamuwa.jpg";
 import naPlacesSafari from "./images/nagala/places-safari.webp";
 import naPlacesWaterfall from "./images/nagala/places-waterfall.jpg";
 
-import anPlacesTea from "./images/anac/places-tea.jpg";
+import anPlacesTea from "./images/anac/places-tea-2.png";
 import anPlacesSafari from "./images/anac/places-safari.jpg";
 import anPlacesTrekking from "./images/anac/places-trekking.jpg";
 import anPlacesWater from "./images/anac/places-waterfall.jpg";
@@ -119,6 +120,7 @@ export {
   heroBgNagala,
   heroBgWorld,
   heroBgAnac,
+  heroBgAnac2,
   aboutImg01,
   aboutImg02,
   logoWhite,
