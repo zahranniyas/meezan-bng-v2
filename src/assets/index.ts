@@ -8,13 +8,13 @@ import heroBgAnac from "./images/anac/hero-bg.jpg";
 import heroBgAnac2 from "./images/anac/hero-bg-2.jpg";
 
 import logoWhite from "./images/logo-white.png";
-import bungOne from "./images/bung-01.jpg";
-import bungTwo from "./images/bung-02.jpg";
-import bungThree from "./images/bung-03.jpg";
-import bungFour from "./images/bung-04.jpg";
+import bungOne from "./images/bung-01-2.jpg";
+import bungTwo from "./images/bung-02-2.jpg";
+import bungThree from "./images/bung-03-2.jpg";
+import bungFour from "./images/bung-04-2.jpg";
 import servOne from "./images/services-01.jpg";
 import servTwo from "./images/services-02.jpg";
-import servThree from "./images/services-03.jpg";
+import servThree from "./images/services-03-2.jpg";
 import comingsoonVid from "./videos/coming-soon-vid.mp4";
 
 import haabout01 from "./images/hatale/about-1.jpg";
