@@ -9,6 +9,8 @@ import QuoteAnac from "../bungalows/anacoombra/QuoteAnac";
 import RoomAnac from "../bungalows/anacoombra/RoomAnac";
 import RoomsImagesAnac from "../bungalows/anacoombra/RoomsImagesAnac";
 import ViewAnac from "../bungalows/anacoombra/ViewAnac";
+import Food from "../components/Food";
+import HeliPad from "../components/HeliPad";
 import MetaData from "../components/MetaData";
 
 const Anacoombra = () => {
@@ -20,6 +22,8 @@ const Anacoombra = () => {
       <ViewAnac />
       <RoomAnac />
       <RoomsImagesAnac />
+      <HeliPad />
+      <Food />
       <FacilitiesAnac />
       <IndFacilitiesAnac />
       <AttractionsAnac />

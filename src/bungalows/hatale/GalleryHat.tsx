@@ -23,11 +23,8 @@ const eventsData: EventData[] = [
     gallery: [
       "/hatale/gallery/view/view-2.jpg",
       "/hatale/gallery/view/view-1.jpg",
-      "/hatale/gallery/view/view-3.jpg",
-      "/hatale/gallery/view/view-4.jpg",
       "/hatale/gallery/view/view-5.jpg",
       "/hatale/gallery/view/view-6.jpg",
-      "/hatale/gallery/view/view-7.jpg",
       "/hatale/gallery/view/view-8.jpg",
       "/hatale/gallery/view/view-9.jpg",
       "/hatale/gallery/view/view-10.jpg",

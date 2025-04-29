@@ -84,14 +84,15 @@ const Bungalows = () => {
           className="z-20 mt-5 flex gap-5 bung-img-set flex-wrap lg:flex-nowrap justify-center max-sm:flex-col max-sm:gap-10"
         >
           {bungalowInfo.map((item, i) => (
-            <BungalowItem
-              key={i}
-              name={item.name}
-              desc={item.desc}
-              img={item.img}
-              link={item.link}
-              addCSS="hover:scale-95 transition-all"
-            />
+            <a href={item.link} key={i}>
+              <BungalowItem
+                name={item.name}
+                desc={item.desc}
+                img={item.img}
+                link={item.link}
+                addCSS="hover:scale-95 transition-all"
+              />
+            </a>
           ))}
         </div>
       </div>

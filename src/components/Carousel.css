@@ -17,6 +17,7 @@
   flex-wrap: nowrap;
   overflow: hidden;
   width: 100%;
+  padding: 40px;
 }
 
 .middleImage {

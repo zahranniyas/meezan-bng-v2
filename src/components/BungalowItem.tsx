@@ -14,7 +14,7 @@ const BungalowItem = ({ name, desc, img, link, addCSS }: Props) => {
         alt="bungalow01"
         className=" relative z-20 rounded-t-xl w-[290px] max-sm:w-[90%]"
       />
-      <div className="bungItem relative z-10 rounded-b-xl bg-white border-[1px] border-t-0 border-[#b5b5b5] text-black w-[290px] max-sm:w-[90%] h-[190px] max-sm:h-auto p-3 flex flex-col justify-between items-start">
+      <div className="bungItem relative z-10 rounded-b-xl bg-white hover:bg-orange-50 transition-colors border-[1px] border-t-0 border-[#b5b5b5] text-black w-[290px] max-sm:w-[90%] h-[190px] max-sm:h-auto p-3 flex flex-col justify-between items-start">
         <div>
           <h2 className="text-xl font-medium">{name}</h2>
           <p className="text-[12px] font-quicksand font-thin">{desc}</p>

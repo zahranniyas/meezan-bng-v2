@@ -294,15 +294,15 @@ export const indoorListNagala = [
     style: "col-span-1 row-span-1",
   },
   {
-    title: "Free Wi-Fi, Television & DVD Player",
-    desc: "Stay connected and entertained throughout your stay at Hatale Bungalow. Enjoy free WiFi for browsing, streaming, or staying in touch with loved ones. Unwind with your favorite shows and movies on the television or explore a curated collection of DVDs for a cozy night in.",
-    img: naIndoor03,
+    title: "Indoor Recreation & Games",
+    desc: "Relax and have fun with a variety of indoor games, including a pool table, carom, chess, checkers, and card games, offering the perfect opportunity for leisure and friendly competition.",
+    img: "/nagala/chessboard.png",
     style: " lg:col-span-1 lg:row-span-1 md:row-span-1 md:col-span-1",
   },
   {
-    title: "Indoor Recreation & Games",
-    desc: "Relax and have fun with a variety of indoor games, including a pool table, carom, chess, checkers, and card games, offering the perfect opportunity for leisure and friendly competition.",
-    img: naIndoor04,
+    title: "Free Wi-Fi, Television & DVD Player",
+    desc: "Stay connected and entertained throughout your stay at Hatale Bungalow. Enjoy free WiFi for browsing, streaming, or staying in touch with loved ones. Unwind with your favorite shows and movies on the television or explore a curated collection of DVDs for a cozy night in.",
+    img: naIndoor03,
     style: "lg:col-span-3 lg:row-span-1 md:col-span-1 ",
   },
 ];
@@ -367,7 +367,7 @@ export const indoorListWorld = [
   {
     title: "Indoor Recreation & Games",
     desc: "Gather 'Round and Play! Unleash your competitive side with a variety of indoor games, perfect for family and friends",
-    img: indoor02,
+    img: "/world/carrom.jpg",
     style: " lg:col-span-1 lg:row-span-1 md:row-span-1 md:col-span-1",
   },
   {

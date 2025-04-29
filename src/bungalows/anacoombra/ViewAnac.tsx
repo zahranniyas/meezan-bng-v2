@@ -1,4 +1,5 @@
 import Slideshow from "../../components/Slideshow";
+import { FaLocationDot } from "react-icons/fa6";
 
 const ViewAnac = () => {
   // Example arrays of 5 images per container
@@ -20,9 +21,18 @@ const ViewAnac = () => {
 
   return (
     <div className="mt-32">
-      <div className="md:pl-40 pl-5 uppercase mb-5 md:mb-20">
-        <h1 className="text-md md:text-6xl">Welcome to</h1>
-        <h1 className="text-2xl md:text-8xl">Ancoombura</h1>
+      <div className="md:px-40 px-5 uppercase mb-5 md:mb-20 flex items-center justify-between">
+        <div>
+          <h1 className="text-md md:text-4xl lg:text-6xl">Welcome to</h1>
+          <h1 className="text-2xl md:text-6xl lg:text-8xl">Ancoombura</h1>
+        </div>
+        <div className="flex items-center gap-2">
+          <FaLocationDot />
+          <div className="">
+            <p className="text-[28px] leading-tight">60 mins</p>
+            <p className="leading-tight">from Kandy</p>
+          </div>
+        </div>
       </div>
 
       <div className="px-5 md:px-20">

@@ -10,7 +10,7 @@ import heroBgAnac2 from "./images/anac/hero-bg-2.jpg";
 import logoWhite from "./images/logo-white.png";
 import bungOne from "./images/bung-01-2.jpg";
 import bungTwo from "./images/bung-02-2.jpg";
-import bungThree from "./images/bung-03-2.jpg";
+import bungThree from "./images/bung-03-3.jpg";
 import bungFour from "./images/bung-04-2.jpg";
 import servOne from "./images/services-01.jpg";
 import servTwo from "./images/services-02.jpg";
