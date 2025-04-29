@@ -1,5 +1,3 @@
-import React from "react";
-
 const BBQCollage = () => {
   const bbqImages = [
     "/hatale/7607.jpg",

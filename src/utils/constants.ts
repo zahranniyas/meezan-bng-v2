@@ -38,7 +38,6 @@ import {
   naIndoor01,
   naIndoor02,
   naIndoor03,
-  naIndoor04,
   naPlacesSafari,
   naPlacesWas,
   naPlacesWaterfall,

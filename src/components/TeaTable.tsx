@@ -1,5 +1,3 @@
-import React from "react";
-
 const TeaTable = () => {
   return (
     <div className="flex md:flex-row flex-col mt-36">

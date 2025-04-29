@@ -1,5 +1,3 @@
-import React from "react";
-
 const Food = () => {
   const images = [
     "/food/001.jpg",
