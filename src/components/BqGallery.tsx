@@ -1,4 +1,4 @@
-const BBQCollage = () => {
+const BqGallery = () => {
   const bbqImages = [
     "/hatale/7607.jpg",
     "/hatale/7610.jpg",
@@ -42,4 +42,4 @@ const BBQCollage = () => {
   );
 };
 
-export default BBQCollage;
+export default BqGallery;

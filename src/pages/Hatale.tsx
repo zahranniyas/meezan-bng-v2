@@ -9,7 +9,7 @@ import QuoteHat from "../bungalows/hatale/QuoteHat";
 import RoomHat from "../bungalows/hatale/RoomHat";
 import RoomsImagesHat from "../bungalows/hatale/RoomsImagesHat";
 import ViewHat from "../bungalows/hatale/ViewHat";
-import BBQGallery from "../components/BbqGallery";
+import BqGallery from "../components/BqGallery";
 import Food from "../components/Food";
 import MetaData from "../components/MetaData";
 import TeaTable from "../components/TeaTable";
@@ -25,7 +25,7 @@ const Hatale = () => {
       <RoomsImagesHat />
       <TeaTable />
       <Food />
-      <BBQGallery />
+      <BqGallery />
       <FacilitiesHatale />
       <IndFacilitiesHatale />
       <AttractionsHatale />
