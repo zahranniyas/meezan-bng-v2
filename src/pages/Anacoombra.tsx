@@ -9,7 +9,7 @@ import QuoteAnac from "../bungalows/anacoombra/QuoteAnac";
 import RoomAnac from "../bungalows/anacoombra/RoomAnac";
 import RoomsImagesAnac from "../bungalows/anacoombra/RoomsImagesAnac";
 import ViewAnac from "../bungalows/anacoombra/ViewAnac";
-import Food from "../components/Food";
+import FoodAnac from "../components/FoodAnac";
 import HeliPad from "../components/HeliPad";
 import MetaData from "../components/MetaData";
 
@@ -23,7 +23,7 @@ const Anacoombra = () => {
       <RoomAnac />
       <RoomsImagesAnac />
       <HeliPad />
-      <Food />
+      <FoodAnac />
       <FacilitiesAnac />
       <IndFacilitiesAnac />
       <AttractionsAnac />

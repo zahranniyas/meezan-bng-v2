@@ -16,7 +16,7 @@ const HeliPad = () => {
         </div>
       </div>
       <div className="md:w-[60%] w-full">
-        <img src="/anac/heli.jpg" alt="" />
+        <img src="/anac/helicop.jpg" alt="" />
       </div>
     </div>
   );

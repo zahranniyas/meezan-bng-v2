@@ -1,13 +1,13 @@
-const Food = () => {
+const FoodAnac = () => {
   const images = [
     "/food/001.jpg",
-    "/food/002.jpg",
+    // "/food/002.jpg",
     "/food/003.jpg",
     "/food/004.jpg",
   ];
 
   return (
-    <section className="max-w-6xl mx-auto py-12 px-4 mt-[100px]">
+    <section className="max-w-7xl mx-auto py-12 px-4 mt-[100px]">
       {/* Heading (optional) */}
       <h2 className="text-3xl font-semibold text-center mb-6">
         Culinary Delights
@@ -21,7 +21,7 @@ const Food = () => {
       </p>
 
       {/* Image Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {images.map((src, idx) => (
           <div
             key={idx}
@@ -30,7 +30,7 @@ const Food = () => {
             <img
               src={src}
               alt={`Delicious meal ${idx + 1}`}
-              className="w-full h-[400px] object-cover"
+              className="w-full h-[300px] object-cover"
             />
           </div>
         ))}
@@ -39,4 +39,4 @@ const Food = () => {
   );
 };
 
-export default Food;
+export default FoodAnac;

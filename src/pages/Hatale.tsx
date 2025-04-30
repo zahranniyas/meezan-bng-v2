@@ -10,7 +10,7 @@ import RoomHat from "../bungalows/hatale/RoomHat";
 import RoomsImagesHat from "../bungalows/hatale/RoomsImagesHat";
 import ViewHat from "../bungalows/hatale/ViewHat";
 import BqGallery from "../components/BqGallery";
-import Food from "../components/Food";
+import FoodHat from "../components/FoodHat";
 import MetaData from "../components/MetaData";
 import TeaTable from "../components/TeaTable";
 
@@ -24,7 +24,7 @@ const Hatale = () => {
       <RoomHat />
       <RoomsImagesHat />
       <TeaTable />
-      <Food />
+      <FoodHat />
       <BqGallery />
       <FacilitiesHatale />
       <IndFacilitiesHatale />
