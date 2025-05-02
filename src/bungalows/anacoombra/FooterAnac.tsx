@@ -21,7 +21,7 @@ const FooterAnac = () => {
       </div>
       <div className="flex max-sm:flex-row max-sm:text-xs flex-col gap-3">
         <p>+94 76 830 4310</p>
-        <p>info@meezan.com</p>
+        <p>meezanbungalow@sltnet.lk</p>
         <p>
           <FaFacebook className="inline mr-3" />
           <FaInstagram className="inline" />

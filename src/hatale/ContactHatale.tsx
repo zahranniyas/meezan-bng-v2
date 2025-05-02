@@ -69,7 +69,7 @@ const ContactHatale = () => {
         </div>
         <div className="flex items-center gap-2 max-sm:justify-center contact-txt">
           <FaSquareEnvelope />
-          <p className="font-quicksand">info@meezan.com</p>
+          <p className="font-quicksand">meezanbungalow@sltnet.lk</p>
         </div>
       </div>
       <div className="bg-secondary flex flex-col border-primary border-[2px] rounded-3xl shadow-2xl px-10 max-sm:px-2 book-container">
